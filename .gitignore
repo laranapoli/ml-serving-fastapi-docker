@@ -1,0 +1,37 @@
+# Arquivos temporários gerados durante a execução do Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+venv/
+env/
+
+# Logs e arquivos de saída
+*.log
+*.txt
+*.csv
+
+# Arquivos de configuração
+*.ini
+*.cfg
+*.conf
+
+# Arquivos gerados por IDEs ou editores de texto
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos de cache e dados gerados
+*.sqlite
+*.sql
+*.db
+*.csv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Outros
+.DS_Store
+Thumbs.db
