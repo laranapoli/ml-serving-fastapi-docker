@@ -8,11 +8,13 @@ import io
 
 app = FastAPI()
 
-
 @app.get("/")
 def read_root():
     return {"message": "Welcome!"}
 
+@app.get("/healthcheck")
+def healthcheck():
+    return {"status": "ok"}
 
 @app.post("/ask")
 def ask(text: str, image: UploadFile):
